@@ -18,21 +18,21 @@ export default function TypeStudio() {
       </div>
       {count === "1" && 
       <div className={styles.aps}>
-        <img src="images/interior-studio.jpg" alt="" srcset="" />
+        <img src="images/interior-studio.jpg" alt="interior-studio" srcset="" />
         <h1>Studio Garden</h1>
         <p>Os studios do Unna foram projetados para oferecer o máximo em funcionalidade e conforto em um espaço compacto e moderno. Sua localização estratégica é ideal para estudantes e profissionais, garantindo praticidade e alto potencial de valorização.</p>
         <button className={styles.investing}>Invista já</button>
         </div> }
         {count === "2" && 
       <div className={styles.aps}>
-        <img src="images/interior-studio.jpg" alt="" srcset="" />
+        <img src="images/interior-studio.jpg" alt="interior-studio" srcset="" />
         <h1>Studio</h1>
         <p>Os studios do Unna foram projetados para oferecer o máximo em funcionalidade e conforto em um espaço compacto e moderno. Sua localização estratégica é ideal para estudantes e profissionais, garantindo praticidade e alto potencial de valorização.</p>
         <button className={styles.investing}>Invista já</button>
         </div> }
         {count === "3" && 
       <div className={styles.aps}>
-        <img src="images/interior-studio.jpg" alt="" srcset="" />
+        <img src="images/interior-studio.jpg" alt="interior-studio" srcset="" />
         <h1>Cobertura</h1>
         <p>Os studios do Unna foram projetados para oferecer o máximo em funcionalidade e conforto em um espaço compacto e moderno. Sua localização estratégica é ideal para estudantes e profissionais, garantindo praticidade e alto potencial de valorização.</p>
         <button className={styles.investing}>Invista já</button>

@@ -49,7 +49,7 @@ export default function How() {
       </div>
 
       <div className={styles.container}>
-        <img src="images/interior-studioCama.png" alt="" />
+        <img src="images/interior-studioCama.png" alt="interior-studioCama" />
         <div className={styles.formMain}>
           <div className={styles.input}>
             <label htmlFor="">Nome</label>
