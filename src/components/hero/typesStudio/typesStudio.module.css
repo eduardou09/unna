@@ -1,0 +1,75 @@
+.info {
+	display: flex;
+	flex-direction: row;
+}
+
+
+@media (max-width: 768px) {
+	.info{
+	
+		width: 100%;
+		flex-direction: column;
+		gap: 25px;
+	}
+
+	.info img {
+		width: 100%;
+		border-radius: 5px;
+	}
+	.info h1 {
+		font-size: 80px;
+		font-weight: 700;
+		line-height: 86.4px;
+	}
+	.info p {
+		font-size: 16px;
+		font-weight: 400;
+		line-height: 20px;
+	}
+
+
+	.buttonsLine{
+		display: flex;
+		
+		width: 100%;
+		gap: 10px;
+	}
+	.buttons {
+		display: flex;
+		flex: 1;
+		align-items: center;
+		justify-content: center;
+		border: 1px solid #061019;
+		border-radius: 5px;
+		padding: 10px 5px;
+		font-size: 16px;
+	}
+
+	.buttons:hover {
+		background-color: #061019;
+		color: white;
+	}
+
+	.aps {
+		display: flex;
+		flex-direction: column;
+		gap: 15px;
+	}
+
+	.investing{
+		border-radius: 5px;
+		border: 1px solid #A8843C;
+		padding: 10px 20px;
+		color: #A8843C;
+		background-color: transparent;
+		font-size: 20px;
+	}
+
+	.investing:hover{
+		background-color: #A8843C;
+        color: white;
+	}
+	
+}
+
+
