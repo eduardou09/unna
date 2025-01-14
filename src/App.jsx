@@ -7,7 +7,7 @@ import LocationValue1 from "./components/hero/locationValue/location";
 import LocationValue2 from "./components/hero/locationValue2/location";
 import Infrastructure from "./components/hero/infrastructure/infrastructure";
 import TypeStudio from "./components/hero/typesStudio/typesStudio";
-import How from "./components/hero/how/how";
+import How from "./components/hero/Info copy/how";
 
 
 export default function App() {

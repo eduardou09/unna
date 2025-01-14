@@ -45,6 +45,11 @@
 		font-size: 16px;
 	}
 
+	.active {
+		background-color: #061019; /* Cor desejada */
+		color: white;
+	  }
+
 	.buttons:hover {
 		background-color: #061019;
 		color: white;

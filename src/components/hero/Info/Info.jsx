@@ -12,7 +12,6 @@ export default function Info() {
             Catarina (UFSC). Do outro, a segurança e mobilidade com fácil saída
             para diversas praias e pontos turísticos da cidade.
           </p>
-          <button>Invista já</button>
         </div>
       
       </div>
