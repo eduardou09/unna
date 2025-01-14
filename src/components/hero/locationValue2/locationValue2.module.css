@@ -1,0 +1,53 @@
+.cards {
+	display: flex;
+	flex-direction: row;
+}
+
+.cards img{	
+	width: 100%;
+			
+	}
+
+
+@media (max-width: 768px) {
+	.cards{
+			flex-direction: column;
+			
+		}
+	.cards img{	
+	width: 100%;
+	border-radius: 5px;
+			
+	}
+
+	.cards p {
+		font-size:12px ;
+		font-weight: 500;
+		width: 105px;
+	}
+	.cards h4 {
+		font-size:16px ;
+		font-weight: 700;
+	}
+
+	.cards a {
+		font-size:16px ;
+		font-weight: 700;
+		width: 198px
+	}
+
+	.info {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		flex: 1;
+		width: 100%;
+		margin-bottom: 20px;
+	}
+
+	.infoText{
+		display: flex;
+		flex-direction: column;
+	}
+	
+}
