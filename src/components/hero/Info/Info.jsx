@@ -24,10 +24,11 @@ export default function Info() {
             <h1>+4.000</h1>
 			<p>novos alunos em 2024</p>
           </div>
-          <div className={styles.skus}>
+          <div className={styles.skusE}>
             <h1>R$ 3.250</h1>
 			<p>rentabilidade mensal média</p>
           </div>
+          <a href="https://wa.me/5548996744426" target="_blank" rel="noopener noreferrer" className={styles.investing}>  Invista já</a>
         </div>
     </article>
   );

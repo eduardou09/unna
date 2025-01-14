@@ -46,6 +46,19 @@
 	  
 	}
 
+	.investing{
+		display: flex;
+		justify-content: center;
+		border-radius: 5px;
+		border: 1px solid #A8843C;
+		padding: 10px 20px;
+		color: #A8843C;
+		background-color: transparent;
+		font-size: 20px;
+		width: 100%;
+		text-decoration: none;
+	}
+
 	.info p {
 		/* Seus estilos para h2 dentro de .info */
 		font-size: 16px;
@@ -60,6 +73,11 @@
 	.skus {
 		width: 90%;
 	  border-bottom: 1px dotted #74899C;
+	  padding-bottom: 10px;
+	}
+	.skusE {
+		width: 90%;
+	  border-bottom: 0;
 	  padding-bottom: 10px;
 	}
   }

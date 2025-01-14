@@ -21,21 +21,21 @@ export default function TypeStudio() {
         <img src="images/interior-studio.jpg" alt="interior-studio" srcset="" />
         <h1>Studio Garden</h1>
         <p>Os studios do Unna foram projetados para oferecer o máximo em funcionalidade e conforto em um espaço compacto e moderno. Sua localização estratégica é ideal para estudantes e profissionais, garantindo praticidade e alto potencial de valorização.</p>
-        <button className={styles.investing}>Invista já</button>
+        <a href="https://wa.me/5548996744426" target="_blank" rel="noopener noreferrer" className={styles.investing}>  Invista já</a>
         </div> }
         {count === "2" && 
       <div className={styles.aps}>
         <img src="images/studioC.png" alt="interior-studio" srcset="" />
         <h1>Studio</h1>
         <p>Os studios do Unna foram projetados para oferecer o máximo em funcionalidade e conforto em um espaço compacto e moderno. Sua localização estratégica é ideal para estudantes e profissionais, garantindo praticidade e alto potencial de valorização.</p>
-        <button className={styles.investing}>Invista já</button>
+        <a href="https://wa.me/5548996744426" target="_blank" rel="noopener noreferrer" className={styles.investing}>  Invista já</a>
         </div> }
         {count === "3" && 
       <div className={styles.aps}>
         <img src="images/coberturaC.png" alt="interior-studio" srcset="" />
         <h1>Cobertura</h1>
         <p>Os studios do Unna foram projetados para oferecer o máximo em funcionalidade e conforto em um espaço compacto e moderno. Sua localização estratégica é ideal para estudantes e profissionais, garantindo praticidade e alto potencial de valorização.</p>
-        <button className={styles.investing}>Invista já</button>
+        <a href="https://wa.me/5548996744426" target="_blank" rel="noopener noreferrer" className={styles.investing}>  Invista já</a>
         </div> }
     </article>
   );

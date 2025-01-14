@@ -26,7 +26,7 @@
 		width: 105px;
 	}
 	.cards h4 {
-		font-size:16px ;
+		font-size:20px ;
 		font-weight: 700;
 	}
 
@@ -42,7 +42,7 @@
 		justify-content: space-between;
 		flex: 1;
 		width: 100%;
-		margin-bottom: 20px;
+		margin-bottom: 10px;
 	}
 
 	.infoText{
@@ -50,4 +50,8 @@
 		flex-direction: column;
 	}
 	
+	.infoText a {
+		color: #061019;
+		font-size: 20px;
+	}
 }
