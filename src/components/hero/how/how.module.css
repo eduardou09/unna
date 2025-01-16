@@ -98,7 +98,8 @@
 .form{
 	display: flex;
 	width: 100%;
-	gap:15px
+	gap:15px;
+	flex-wrap: wrap;
 }
 
 .investing{
