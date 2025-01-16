@@ -60,15 +60,15 @@ export default function App() {
 	return (
 		<div className={styles.app}>
 			<Toaster position="top-center" reverseOrder={false} />
-			<Banner />
+			 <Banner /> 
 			<Info />
 			<div className={styles.cards2}>
 				<LocationValue1 />
 				<LocationValue2 />
-			</div>
-			<Infrastructure />
+			</div> 
+			 <Infrastructure /> 
 			<TypeStudio />
-			<How />
+			 <How />
 		</div>
 	);
 }
