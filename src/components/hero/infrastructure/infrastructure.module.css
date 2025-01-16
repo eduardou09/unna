@@ -5,6 +5,51 @@
 }
 
 
+
+.info{
+	border-radius: 20px;
+	padding: 20px;
+	flex-direction: column;
+	justify-items: center;
+	text-align: center;
+	gap: 40px;
+}
+
+.info h2 {
+	/* Seus estilos para h2 dentro de .info */
+	font-size: 48px;
+	height: 600;
+	color: #F6FBFF;
+	line-height: 44px;
+  
+}
+
+.info p {
+	/* Seus estilos para h2 dentro de .info */
+	font-size: 16px;
+	height: 600;
+	color: #74899C;
+  
+}
+
+.title{
+	display: flex;
+	flex-direction: column;
+	justify-items: center;
+	align-items: center;
+	gap: 20px;
+}
+.title img {
+	width: max-content;
+}
+
+.buttonsContainer span {
+	font-size: 12px;
+		height: 400;
+		color: #ffffff;
+		display: flex;
+}
+
 @media (max-width: 768px) {
 	.info{
 		border-radius: 20px;
@@ -46,8 +91,99 @@
 
 .numbers{
 	display: flex;
-    flex-direction: column;
+    flex-direction: row;
 }
+.numbers h1 {
+	/* Seus estilos para h2 dentro de .info */
+	font-size: 94px;
+	height: 600;
+  
+}
+
+.numbers span {
+	/* Seus estilos para h2 dentro de .info */
+	font-size: 12px;
+	height: 400;
+	color: #ffffff;
+  
+}
+.buttons {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr); /* Define 4 colunas de tamanho igual */
+	grid-template-rows: repeat(2, auto);  /* Define 2 linhas com altura automática */
+	gap: 10px; /* Espaçamento entre os itens */
+  }
+
+.buttons span {
+	/* Seus estilos para h2 dentro de .info */
+	font-size: 12px;
+	height: 400;
+	color: #ffffff;
+  
+}
+.numbers img {
+	/* Seus estilos para h2 dentro de .info */
+	width: 100%;
+	border-radius: 5px;
+}
+.imageContainer {
+	position: relative;
+  }
+  
+  .imageContainer img {
+	width: 100%;
+	height: auto;
+  }
+  
+  .imageContainer .textOverlay {
+	position: absolute;
+	background-color: rgba(243, 247, 251, 0.9);
+	padding: 5px 20px;
+	border-radius:0px 5px   5px 0px;
+	top: 20%;
+	left: 68px;
+	color:rgba(6, 16, 25, 0.651) ;
+	transform: translate(-50%, -50%);
+	
+  }
+
+  .imageContainer .textOverlayCoworking {
+	position: absolute;
+	background-color: rgba(243, 247, 251, 0.9);
+	padding: 5px 20px;
+	border-radius:0px 5px   5px 0px;
+	top: 20%;
+	left: 58px;
+	color:rgba(6, 16, 25, 0.651) ;
+	transform: translate(-50%, -50%);
+	
+  }
+  .imageContainer .textOverlayLavanderia {
+	position: absolute;
+	background-color: rgba(243, 247, 251, 0.9);
+	padding: 5px 20px;
+	border-radius:0px 5px   5px 0px;
+	top: 20%;
+	left: 58px;
+	color:rgba(6, 16, 25, 0.651) ;
+	transform: translate(-50%, -50%);
+	
+  }
+
+  .buttonsReal {
+	display: flex;
+	width: 100%;
+	background-color: #3E454B;
+	border-radius: 5px;
+	padding: 10px 20px;
+	align-items: center; /* Centraliza verticalmente */
+	justify-content: center; /* Centraliza horizontalmente */
+	text-align: center; /* Para o texto dentro do botão */
+	color:rgba(246, 251, 255, 0.851); /* Opcional: cor do texto */
+  }
+  .imageContainerMiniMarket img{
+	width: 100%;
+  }
 
 @media (max-width: 768px) {
 	.numbers{

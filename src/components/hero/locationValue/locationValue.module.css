@@ -5,9 +5,23 @@
 
 .cards img{	
 	width: 100%;
-			
+	border-radius: 20px;
 	}
 
+	.info {
+		display: flex;
+		justify-content: space-between;
+	}	
+
+	.cards p {
+		font-size:16px ;
+		font-weight: 500;
+		
+	}
+	.cards h4 {
+		font-size:20px ;
+		font-weight: 800;
+	}
 
 @media (max-width: 768px) {
 	.cards{

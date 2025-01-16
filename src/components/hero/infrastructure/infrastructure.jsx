@@ -13,12 +13,10 @@ export default function Infrastructure() {
             Catarina (UFSC). Do outro, a segurança e mobilidade com fácil saída
             para diversas praias e pontos turísticos da cidade.
           </p>
-      
         </div>
       </div>
+
       <div className={styles.numbers}>
-       <span>Infraestrutura interna:</span>
-        
         <div className={styles.imageContainer}>
           <div className={styles.textOverlay}>Pub pra festas</div>
           <img src="images/interior-festas.jpg" alt="nterior-festas" />
@@ -33,20 +31,26 @@ export default function Infrastructure() {
         </div>
         <div className={styles.imageContainer}>
           <div className={styles.textOverlay}>Mini Mercado</div>
-          <img src="images/interior-lavanderia.jpg" alt="interior-lavanderia" />
+          <img
+            src="images/interior-mini-market.jpeg"
+            alt="interior-mini-market"
+          />
         </div>
       </div>
-      <div className={styles.buttons}>
+      <div className={styles.buttonsContainer}>
         <span>Conveniências locais:</span>
-        <div className={styles.buttonsReal}>UFSC e Escolas </div>
-        <div className={styles.buttonsReal}>Supermercado e Shopping</div>
-        <div className={styles.buttonsReal}>Praças e Áreas Verdes</div>
-        <div className={styles.buttonsReal}>Hospital Universitários</div>
-        <div className={styles.buttonsReal}>Clínicas Médicas</div>
-        <div className={styles.buttonsReal}>Pet Shops</div>
-        <div className={styles.buttonsReal}>Bares, Padarias e Restaurantes</div>
-        <div className={styles.buttonsReal}>Academias</div>
-        
+        <div className={styles.buttons}>
+          <div className={styles.buttonsReal}>UFSC e Escolas </div>
+          <div className={styles.buttonsReal}>Supermercado e Shopping</div>
+          <div className={styles.buttonsReal}>Praças e Áreas Verdes</div>
+          <div className={styles.buttonsReal}>Hospital Universitários</div>
+          <div className={styles.buttonsReal}>Clínicas Médicas</div>
+          <div className={styles.buttonsReal}>Pet Shops</div>
+          <div className={styles.buttonsReal}>
+            Bares, Padarias e Restaurantes
+          </div>
+          <div className={styles.buttonsReal}>Academias</div>
+        </div>
       </div>
     </article>
   );

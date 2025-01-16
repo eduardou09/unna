@@ -1,13 +1,138 @@
 .info {
 	display: flex;
 	flex-direction: row;
+	flex: 100%;
+	gap:40px;
+	align-items: stretch; 
 }
+
+.whoFunc{
+	display: flex;
+	flex-direction: column;
+	width: 50%;
+}
+
+.info h2 {
+	/* Seus estilos para h2 dentro de .info */
+	font-size: 49.87px;
+	height: 600;
+  
+}
+
+.info p {
+	/* Seus estilos para h2 dentro de .info */
+	font-size: 16px;
+	height: 600;
+	color: #74899C;
+  
+}
+
+
+
+.numbers{
+	display: flex;
+	flex-direction: column;
+	
+}
+.numbers h1 {
+	/* Seus estilos para h2 dentro de .info */
+	font-size: 24px;
+
+  
+}
+
+.info p {
+	/* Seus estilos para h2 dentro de .info */
+	font-size: 16px;
+	height: 600;
+	color: #74899C;
+}
+.skus {
+	display: flex;
+	flex-direction: column;
+	gap: 5px;
+	padding-top: 10px;
+	width: 100%;
+  border-bottom: 1px dotted #74899C;
+  padding-bottom: 10px;
+}
+.skusD {
+	display: flex;
+	flex-direction: column;
+	gap: 5px;
+	padding-top: 10px;
+	width: 90%;
+  padding-bottom: 10px;
+}
+
+.ContentContainer{
+	display: flex;
+	width: 50%;
+} 
+
+.container{
+	position: relative;
+}
+
+.container img {
+
+	width: 100%;
+	
+}
+
+
+.formMain{
+	display: flex;
+	flex-direction: column;
+	gap:22px;
+	padding: 10px;
+	position: relative; 
+ /* Move a div 50% para baixo */
+ bottom: 215px;
+	left: 2.5%;
+	width: calc(100% - 20px);
+	background-color: #ffffff;
+	border-radius: 5px;
+}
+
+.form{
+	display: flex;
+	width: 100%;
+	gap:15px
+}
+
+.investing{
+	border-radius: 5px;
+	border: 1px solid #A8843C;
+	padding: 10px 20px;
+	color: #ffffff;
+	background-color: #A8843C;
+	font-size: 16px;
+}
+
+
+
+.input{
+	display: flex;
+	flex-direction: column;
+	flex: 1;
+	
+}
+
+.input input{
+	border: none;
+	border-bottom: 1px solid #061019;
+	outline: none;
+	padding: 5px 0;
+}
+
 
 
 @media (max-width: 768px) {
 	.info{
 		flex-direction: column;
 		gap: 25px;
+		align-items:normal; 
 	}
 	.info h2 {
 		/* Seus estilos para h2 dentro de .info */
@@ -27,6 +152,9 @@
 	.info img {
 		width: 100%;
 	  
+	}
+	.whoFunc{
+		width: 100%;
 	}
 }
 
@@ -77,9 +205,20 @@
 		width: 90%;
 	  padding-bottom: 10px;
 	}
-
+.ContentContainer{
+	display: flex;
+	width: 100%;
+}
 	.container{
 		position: relative;
+	
+		width: 100%;
+	}
+
+	.container img {
+		height: 100%;
+		width: 100%;
+		
 	}
 	.formMain{
 		display: flex;
