@@ -2,11 +2,11 @@
 	display: flex;
 	flex-direction: row;
 	flex: 100%;
-	gap:40px;
-	align-items: stretch; 
+	gap: 40px;
+	align-items: stretch;
 }
 
-.whoFunc{
+.whoFunc {
 	display: flex;
 	flex-direction: column;
 	width: 50%;
@@ -16,36 +16,29 @@
 	/* Seus estilos para h2 dentro de .info */
 	font-size: 49.87px;
 	height: 600;
-  
 }
 
 .info p {
 	/* Seus estilos para h2 dentro de .info */
 	font-size: 16px;
 	height: 600;
-	color: #74899C;
-  
+	color: #74899c;
 }
 
-
-
-.numbers{
+.numbers {
 	display: flex;
 	flex-direction: column;
-	
 }
 .numbers h1 {
 	/* Seus estilos para h2 dentro de .info */
 	font-size: 24px;
-
-  
 }
 
 .info p {
 	/* Seus estilos para h2 dentro de .info */
 	font-size: 16px;
 	height: 600;
-	color: #74899C;
+	color: #74899c;
 }
 .skus {
 	display: flex;
@@ -53,8 +46,8 @@
 	gap: 5px;
 	padding-top: 10px;
 	width: 100%;
-  border-bottom: 1px dotted #74899C;
-  padding-bottom: 10px;
+	border-bottom: 1px dotted #74899c;
+	padding-bottom: 10px;
 }
 .skusD {
 	display: flex;
@@ -62,131 +55,131 @@
 	gap: 5px;
 	padding-top: 10px;
 	width: 90%;
-  padding-bottom: 10px;
+	padding-bottom: 10px;
 }
 
-.ContentContainer{
+.ContentContainer {
 	display: flex;
 	width: 50%;
-} 
+}
 
-.container{
+.container {
 	position: relative;
+
+	width: 100%;
+
+	contain: paint;
+
+	display: flex;
+	flex-direction: row;
+	align-items: end;
+	justify-content: center;
+
+	padding: 10px;
+	border-radius: 5px;
 }
 
 .container img {
+	position: absolute;
+	top: 0;
 
 	width: 100%;
-	
+	height: 100%;
+
+	z-index: -1;
 }
 
+.formMain {
+	width: 100%;
 
-.formMain{
+	padding: 10px;
+
 	display: flex;
 	flex-direction: column;
-	gap:22px;
-	padding: 10px;
-	position: relative; 
- /* Move a div 50% para baixo */
- bottom: 215px;
-	left: 2.5%;
-	width: calc(100% - 20px);
+	gap: 22px;
+
 	background-color: #ffffff;
 	border-radius: 5px;
 }
 
-.form{
+.form {
 	display: flex;
 	width: 100%;
-	gap:15px;
+	gap: 15px;
 	flex-wrap: wrap;
 }
 
-.investing{
+.investing {
 	border-radius: 5px;
-	border: 1px solid #A8843C;
+	border: 1px solid #a8843c;
 	padding: 10px 20px;
 	color: #ffffff;
-	background-color: #A8843C;
+	background-color: #a8843c;
 	font-size: 16px;
 }
 
-
-
-.input{
+.input {
 	display: flex;
 	flex-direction: column;
 	flex: 1;
-	
 }
 
-.input input{
+.input input {
 	border: none;
 	border-bottom: 1px solid #061019;
 	outline: none;
 	padding: 5px 0;
 }
 
-
-
 @media (max-width: 768px) {
-	.info{
+	.info {
 		flex-direction: column;
 		gap: 25px;
-		align-items:normal; 
+		align-items: normal;
 	}
 	.info h2 {
 		/* Seus estilos para h2 dentro de .info */
 		font-size: 49.87px;
 		height: 600;
-	  
 	}
 
 	.info p {
 		/* Seus estilos para h2 dentro de .info */
 		font-size: 16px;
 		height: 600;
-		color: #74899C;
-	  
+		color: #74899c;
 	}
 
 	.info img {
 		width: 100%;
-	  
 	}
-	.whoFunc{
+	.whoFunc {
 		width: 100%;
 	}
 }
 
-
-.numbers{
+.numbers {
 	display: flex;
-    flex-direction: column;
+	flex-direction: column;
 }
 
 @media (max-width: 768px) {
-	.numbers{
+	.numbers {
 		display: flex;
 		flex-direction: column;
-		
 	}
 	.numbers h1 {
 		/* Seus estilos para h2 dentro de .info */
 		font-size: 24px;
-	
-	  
 	}
 
 	.info p {
 		/* Seus estilos para h2 dentro de .info */
 		font-size: 16px;
 		height: 600;
-		color: #74899C;
-	  
+		color: #74899c;
 	}
 }
-
 
 @media (max-width: 768px) {
 	.skus {
@@ -195,8 +188,8 @@
 		gap: 5px;
 		padding-top: 10px;
 		width: 100%;
-	  border-bottom: 1px dotted #74899C;
-	  padding-bottom: 10px;
+		border-bottom: 1px dotted #74899c;
+		padding-bottom: 10px;
 	}
 	.skusD {
 		display: flex;
@@ -204,64 +197,60 @@
 		gap: 5px;
 		padding-top: 10px;
 		width: 90%;
-	  padding-bottom: 10px;
+		padding-bottom: 10px;
 	}
-.ContentContainer{
-	display: flex;
-	width: 100%;
-}
-	.container{
+	.ContentContainer {
+		display: flex;
+		width: 100%;
+	}
+	.container {
 		position: relative;
-	
+
 		width: 100%;
 	}
 
 	.container img {
 		height: 100%;
 		width: 100%;
-		
 	}
-	.formMain{
+	.formMain {
 		display: flex;
 		flex-direction: column;
-		gap:22px;
+		gap: 22px;
 		padding: 10px;
-		position: absolute; 
-	bottom: 15px; /* Move a div 50% para baixo */
+		position: absolute;
+		bottom: 15px; /* Move a div 50% para baixo */
 		left: 2.5%;
 		width: 95%;
 		background-color: #ffffff;
 		border-radius: 5px;
 	}
 
-	.form{
+	.form {
 		display: flex;
 		width: 100%;
-		gap:15px
+		gap: 15px;
 	}
 
-	.investing{
+	.investing {
 		border-radius: 5px;
-		border: 1px solid #A8843C;
+		border: 1px solid #a8843c;
 		padding: 10px 20px;
 		color: #ffffff;
-		background-color: #A8843C;
+		background-color: #a8843c;
 		font-size: 16px;
 	}
 
-	
-	
-	.input{
+	.input {
 		display: flex;
 		flex-direction: column;
 		flex: 1;
-		
 	}
 
-	.input input{
+	.input input {
 		border: none;
 		border-bottom: 1px solid #061019;
 		outline: none;
 		padding: 5px 0;
 	}
-  }
+}
