@@ -1,18 +1,15 @@
-.info {
-	display: flex;
-	flex-direction: row;
-}
+
 
 
 .info{
-	
+	display: grid;
+	grid-template-columns: 1fr 3fr 2fr;
 	width: 100%;
-	flex-direction: row;
 	gap: 25px;
 }
 
 .info img {
-	width: 65%;
+	width: 100%;
 	border-radius: 5px;
 }
 .info h1 {
@@ -61,12 +58,14 @@
 	display: flex;
 	flex-direction: row;
 	gap: 15px;
+	width: 100%;
 }
 
 .information{
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
+	width: 100%;
 }
 
 .information p {
@@ -95,7 +94,7 @@
 
 @media (max-width: 768px) {
 	.info{
-	
+	display: flex;
 		width: 100%;
 		flex-direction: column;
 		gap: 25px;
@@ -152,6 +151,10 @@
 		display: flex;
 		flex-direction: column;
 		gap: 15px;
+	}
+
+	.aps img {
+		width: 100%;
 	}
 
 	.investing{
