@@ -29,10 +29,10 @@ export default function Infrastructure() {
           <div className={styles.textOverlayLavanderia}>lavanderia</div>
           <img src="images/interior-lavanderia.jpg" alt="interior-lavanderia" />
         </div>
-        <div className={styles.imageContainer}>
+        <div className={styles.imageContainerE}>
           <div className={styles.textOverlay}>Mini Mercado</div>
           <img
-            src="images/interior-mini-market.jpeg"
+            src="images/interior-mini-market.jpg"
             alt="interior-mini-market"
           />
         </div>

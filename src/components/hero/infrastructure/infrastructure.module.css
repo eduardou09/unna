@@ -32,6 +32,10 @@
   
 }
 
+.imageContainerE{
+	display: none;
+}
+
 .title{
 	display: flex;
 	flex-direction: column;
@@ -92,6 +96,7 @@
 .numbers{
 	display: flex;
     flex-direction: row;
+	gap:10px
 }
 .numbers h1 {
 	/* Seus estilos para h2 dentro de .info */
@@ -240,6 +245,31 @@
 		width: 100%;
 		height: auto;
 	  }
+	  .imageContainerE img {
+		width: 100%;
+		height: auto;
+	  }
+
+	  .imageContainerE{
+		display: flex;
+		position: relative;
+		width: 100%;
+	}
+
+
+	.imageContainerE .textOverlay {
+		position: absolute;
+		background-color: rgba(243, 247, 251, 0.9);
+		padding: 5px 20px;
+		border-radius:0px 5px   5px 0px;
+		top: 20%;
+		left: 65px;
+		color:rgba(6, 16, 25, 0.651) ;
+		transform: translate(-50%, -50%);
+		
+	  }
+
+	
 	  
 	  .imageContainer .textOverlay {
 		position: absolute;
@@ -270,7 +300,7 @@
 		padding: 5px 20px;
 		border-radius:0px 5px   5px 0px;
 		top: 20%;
-		left: 58px;
+		left: 54px;
 		color:rgba(6, 16, 25, 0.651) ;
 		transform: translate(-50%, -50%);
 		

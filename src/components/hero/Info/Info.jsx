@@ -12,7 +12,7 @@ export default function Info() {
             Catarina (UFSC). Do outro, a segurança e mobilidade com fácil saída
             para diversas praias e pontos turísticos da cidade.
           </p>
-          <button type="button">Invista já</button>
+          <a href="https://wa.me/5548996744426" target="_blank" rel="noopener noreferrer"><button type="button">Invista já</button></a> 
         </div>
  
       </div>
