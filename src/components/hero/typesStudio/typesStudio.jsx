@@ -46,7 +46,7 @@ export default function TypeStudio() {
 				</div>
 				<a
 					className={styles.investing}
-					href="https://wa.me/5548996744426"
+					href="https://wa.me/5548996744426?text=Olá.%20Estou%20interessado%20em%20receber%20mais%20informações%20do%20UNNA%20STUDIOS."
 					target="_blank"
 					rel="noopener noreferrer"
 				>

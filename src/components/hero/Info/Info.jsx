@@ -12,7 +12,7 @@ export default function Info() {
             Catarina (UFSC). Do outro, a segurança e mobilidade com fácil saída
             para diversas praias e pontos turísticos da cidade.
           </p>
-          <a href="https://wa.me/5548996744426" target="_blank" rel="noopener noreferrer"><button type="button">Invista já</button></a> 
+          <a href="https://wa.me/5548996744426?text=Olá.%20Estou%20interessado%20em%20receber%20mais%20informações%20do%20UNNA%20STUDIOS." target="_blank" rel="noopener noreferrer"><button type="button">Invista já</button></a> 
         </div>
  
       </div>
@@ -34,7 +34,7 @@ export default function Info() {
             
 			<p>rentabilidade mensal média</p>
           </div>
-          <a href="https://wa.me/5548996744426" target="_blank" rel="noopener noreferrer" className={styles.investing}>  Invista já</a>
+          <a href="https://wa.me/5548996744426?text=Olá.%20Estou%20interessado%20em%20receber%20mais%20informações%20do%20UNNA%20STUDIOS." target="_blank" rel="noopener noreferrer" className={styles.investing}>  Invista já</a>
         </div>
     </article>
   );

@@ -212,7 +212,7 @@
 		position:unset;
 		height: 100%;
 		width: 100%;
-		
+		border-radius: 5px;
 	}
 	.formMain {
 		display: flex;
@@ -221,8 +221,8 @@
 		padding: 10px;
 		position: absolute;
 		bottom: 15px; /* Move a div 50% para baixo */
-		left: 2.5%;
-		width: 95%;
+	
+		width: 90%;
 		background-color: #ffffff;
 		border-radius: 5px;
 	}
@@ -253,5 +253,11 @@
 		border-bottom: 1px solid #061019;
 		outline: none;
 		padding: 5px 0;
+	}
+}
+
+@media (max-width: 550px) {
+	.formMain{
+		width: 85%;
 	}
 }
