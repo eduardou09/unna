@@ -82,7 +82,6 @@ export default function How() {
 					})}
 				</div>
 			</div>
-
 			<div className={styles.container}>
 				<img src="images/interior-studio.jpg" alt="bg" />
 				<form className={styles.formMain} onSubmit={sendEmal}>
