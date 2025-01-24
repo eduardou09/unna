@@ -83,7 +83,7 @@ export default function How() {
 				</div>
 			</div>
 			<div className={styles.container}>
-				<img src="images/interior-studio.jpg" alt="bg" />
+				<img src="images/interior-studio.jpg" alt="bg"  fetchpriority="high"/>
 				<form className={styles.formMain} onSubmit={sendEmal}>
 					<div className={styles.input}>
 						<label htmlFor="">Nome</label>

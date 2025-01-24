@@ -53,7 +53,7 @@ export default function App() {
     const pixelNoscript = document.createElement("noscript");
     pixelNoscript.innerHTML = `
 		  <img height="1" width="1" style="display:none"
-		  src="https://www.facebook.com/tr?id=985467208851663&ev=PageView&noscript=1" />
+		  src="https://www.facebook.com/tr?id=985467208851663&ev=PageView&noscript=1"  fetchpriority="high" />
 		`;
     document.body.appendChild(pixelNoscript);
   }, []);

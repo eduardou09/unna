@@ -4,7 +4,7 @@ export default function LocationValue2() {
   return (
     <div className={styles.cards}>
       <div>
-        <img src="images/foto-externa-3.jpg" />
+        <img src="images/foto-externa-3.jpg"  fetchpriority="high"/>
         <div className={styles.info}>
           <div className={styles.infoText}>
             <p>Localização</p>

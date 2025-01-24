@@ -4,7 +4,7 @@ export default function Infrastructure() {
   return (
     <article className={styles.info}>
       <div className={styles.title}>
-        <img src="images/Vector.png" alt="Vector" />
+        <img src="images/Vector.png" alt="Vector"  fetchpriority="high"/>
         <h2>Infraestrutura completa</h2>
         <div>
           <p>
@@ -19,15 +19,15 @@ export default function Infrastructure() {
       <div className={styles.numbers}>
         <div className={styles.imageContainer}>
           <div className={styles.textOverlay}>Pub pra festas</div>
-          <img src="images/interior-festas.jpg" alt="nterior-festas" />
+          <img src="images/interior-festas.jpg" alt="nterior-festas"  fetchpriority="high" />
         </div>
         <div className={styles.imageContainer}>
           <div className={styles.textOverlayCoworking}>Coworking</div>
-          <img src="images/interior-coworking.jpg" alt="nterior-coworking" />
+          <img src="images/interior-coworking.jpg" alt="nterior-coworking"  fetchpriority="high" />
         </div>
         <div className={styles.imageContainer}>
           <div className={styles.textOverlayLavanderia}>lavanderia</div>
-          <img src="images/interior-lavanderia.jpg" alt="interior-lavanderia" />
+          <img src="images/interior-lavanderia.jpg" alt="interior-lavanderia"  fetchpriority="high"/>
         </div>
         <div className={styles.imageContainerE}>
           <div className={styles.textOverlay}>Mini Mercado</div>

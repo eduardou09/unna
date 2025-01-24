@@ -37,7 +37,7 @@ export default function TypeStudio() {
 				))}
 			</div>
 
-			<img src={types[count].img} alt="interior-studio" srcset="" />
+			<img src={types[count].img} alt="interior-studio" srcset=""  fetchpriority="high"/>
 
 			<div className={styles.information}>
 				<div className={styles.informationTexts}>
