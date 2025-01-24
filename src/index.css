@@ -7,6 +7,8 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+	scrollbar-width: none; /* Esconde a barra de rolagem no Firefox */
+	-ms-overflow-style: none; /* Esconde no IE 10+ */
 }
 
 html,
@@ -15,3 +17,8 @@ body {
 	font-family: 'Pontano Sans', sans-serif;
 	overflow-x: hidden; /* Previne o scroll horizontal */
   }
+
+  html::-webkit-scrollbar,
+body::-webkit-scrollbar {
+	display: none; /* Esconde no Chrome, Safari e Edge */
+}

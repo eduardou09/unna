@@ -21,3 +21,14 @@
 		gap: 20px;
 	}
 }
+
+.app {
+	overflow: auto; /* Habilita o scroll */
+	scrollbar-width: none; /* Firefox */
+	-ms-overflow-style: none; /* Internet Explorer 10+ */
+  }
+  
+  /* Remove a barra de rolagem no Chrome, Edge e Safari */
+  .app::-webkit-scrollbar {
+	display: none;
+  }
